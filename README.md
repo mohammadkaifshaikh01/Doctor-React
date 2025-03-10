@@ -1,12 +1,39 @@
-# React + Vite
+# Doctor Appointment System 🏥  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based **Doctor Appointment System** that allows users to book appointments, view doctor details, and manage their schedules. The system includes **authentication, search functionality, filtering, and calendar-based appointment booking**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo  
+🔗 [Doctor Appointment System](https://doctor-react-ten.vercel.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Repository  
+🔗 [GitHub Repository](https://github.com/mohammadkaifshaikh01/Doctor-React)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Features  
+
+- **User Authentication** (Login & Signup)  
+- **Doctor Listing & Search** (Find doctors by name or specialization)  
+- **Appointment Booking** (Select available time slots)  
+- **Real-Time Calendar View** (Using `react-big-calendar`)  
+- **Toast Notifications** (Success & error messages with `react-toastify`)  
+- **Related Doctors Section** (View similar specialists)  
+
+---
+
+## ⚙️ Tech Stack  
+
+- **Frontend**: React.js, React Router  
+- **State Management**: useContext API  
+- **UI Components**: Tailwind CSS, Toastify  
+- **Calendar**: react-big-calendar  
+- **Storage**: LocalStorage (for saving appointments)  
+
+---
+
+## 📌 Installation & Setup  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/mohammadkaifshaikh01/Doctor-React.git
+   cd Doctor-React
